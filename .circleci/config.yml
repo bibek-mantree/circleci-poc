@@ -21,7 +21,7 @@ jobs:
       # add wixcli download step and add execute permission
       - run:
           name: "Wiz CLI Download"
-          command: "curl -L https://downloads.wiz.io/wizcli/latest/wizcli-linux-amd64 -o wizcli chmod +x wizcli"
+          command: "curl -L https://downloads.wiz.io/wizcli/latest/wizcli-linux-amd64 -o wizcli && chmod +x wizcli"
       # add wizcli scan step
       - run:
           name: "Wiz Scan"
