@@ -25,7 +25,7 @@ jobs:
       # add wizcli scan step
       - run:
           name: "Wiz Scan"
-          command: "./wizcli version"
+          command: "./wizcli cersion"
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/workflows/ & https://circleci.com/docs/configuration-reference/#workflows
