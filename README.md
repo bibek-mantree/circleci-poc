@@ -1,3 +1,3 @@
 # circleci-poc
 Does a initial feature change.
-Feature 1
+Feature 2
